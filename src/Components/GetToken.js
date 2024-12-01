@@ -5,8 +5,8 @@ export function useSpotifyToken() {
     const [token, setToken] = useState(null);
 
     async function getAccessToSpotify() {
-        const clientId = '0e49081f39b5477782421511eeccaa80'; // Replace with your actual Client ID
-        const clientSecret = '283c135e48134e0db1df72ef7170f4dc'; // Replace with your actual Client Secret
+        const clientId = ''; // Replace with your actual Client ID
+        const clientSecret = ''; // Replace with your actual Client Secret
       
         // Create a Base64-encoded string of `clientId:clientSecret`
         const encodedKey = btoa(`${clientId}:${clientSecret}`);
